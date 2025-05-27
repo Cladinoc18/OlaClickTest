@@ -121,11 +121,11 @@ La URL base será `http://localhost:3000`, (o tu `APP_PORT`), como se mencionó 
 ---
 ## Consideraciones Técnicas Adicionales
 
-* **Estructura Modular:** El proyecto utiliza la estructura modular de NestJS.
-* **Principios SOLID:** Se ha intentado seguir los principios SOLID en la medida de lo posible, especialmente la separación de responsabilidades (Controller, Service).
-* **Validación:** Se usan DTOs con `class-validator` y un `ValidationPipe` global para validar los datos de entrada de las solicitudes.
-* **Caché:** El endpoint `GET /orders` implementa caché en Redis por 30 segundos usando `CacheInterceptor` de NestJS.
-* **Base de Datos:** La opción `synchronize: true` de Sequelize está activada para desarrollo, lo que permite crear/actualizar las tablas automáticamente según los modelos.
+* El proyecto utiliza la estructura modular de NestJS.
+* Se ha intentado seguir los principios SOLID en la medida de lo posible, especialmente la separación de responsabilidades (Controller, Service).
+* Se usan DTOs con `class-validator` y un `ValidationPipe` global para validar los datos de entrada de las solicitudes.
+* El endpoint `GET /orders` implementa caché en Redis por 30 segundos usando `CacheInterceptor` de NestJS.
+* La opción `synchronize: true` de Sequelize está activada para desarrollo, lo que permite crear/actualizar las tablas automáticamente según los modelos.
 
 ## Pruebas Automatizadas
 
