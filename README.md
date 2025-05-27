@@ -52,7 +52,7 @@ Para poder levantar el proyecto: ->
 3.  **Instalar todas las dependencias:**
     Abre una terminal en la raiz del proyecto y ejecuta `npm i`, con esto instalaras todas las dependencias que se encuentan en el package.json
    
-4.  **Construir y Levantar los Contenedores Docker:**
+4.  **Construir y Levantar los Contenedores Docker:** (Es necesario ejecutar el Docker Desktop, previamente instalado)
     Abre una terminal en la raíz del proyecto y ejecuta `docker compose up --build`
    
     * La opción --build es importante la primera vez.
